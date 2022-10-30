@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="s27556"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-30 09:17:18 AM"/>
+        <attribute name="created" value="czI3NTU2O0xBQjExMVctMTA7MjAyMi0xMC0yNDswODo0ODowMCBBTTsyMjI1"/>
+        <attribute name="edited" value="czI3NTU2O0xBQjExMVctMTA7MjAyMi0xMC0yNDswOToyNzowOSBBTTs1OzIzNDQ="/>
+        <attribute name="edited" value="Tmlrb2RlbTtTVEFDSk9OQVJOWTsyMDIyLTEwLTMwOzA5OjE3OjE4IEFNOzE7MjkyOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, p, avar, i, ocena" type="Integer" array="False" size=""/>
+            <assign variable="avar" expression="0"/>
+            <input variable="n"/>
+            <input variable="p"/>
+            <for variable="i" start="1" end="p" direction="inc" step="1">
+                <input variable="ocena"/>
+                <assign variable="avar" expression="avar+ocena"/>
+            </for>
+            <output expression="(((n-p)*(-3))+avar)/n" newline="True"/>
+            <output expression="(((n-p)*3)+avar)/n" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
